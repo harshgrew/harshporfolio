@@ -1,0 +1,422 @@
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+header .nav{
+    /* border: 2px solid red; */
+    width: 95%;
+    height: 12vh;
+    display: flex;
+
+}
+
+header .nav .icn{
+    /* border: 2px solid blue; */
+    height: 10vh;
+    width: 70%;
+    align-self: center;
+    margin-left: 15%;
+    
+}
+header .nav .icn img{
+    height: 150%;
+    width: 80%;
+    margin-top: 5%;
+    /* border: 2px solid red; */
+        
+}
+header .nav .menu{
+    /* border: 2px solid blue; */
+    height: 10vh;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+header .nav .menu button{
+    margin: auto;
+    float: right;
+    width: 18vh;
+    height: 6vh;
+    font-size: 20px;
+    margin-top: 4vh;
+    border-radius: 10px;
+    border: 2px solid white;
+    /* background-color: rgb(231, 48, 106); */
+    
+    font-family:'poppins';
+    color: rgb(255, 255, 255);
+}
+
+.about{
+    /* border: 2px solid red; */
+    width: 95%;
+    height: 60vh;
+    margin-top: 5vh;
+    margin-left: 2.5%;
+    
+}
+
+.about .img1{
+    border: 5px solid rgb(231, 48, 106);
+    border: 5px solid rgb(48, 124, 230);
+    width: 68%;
+    margin: auto;
+    height: 50%;
+    border-radius: 50%;
+    
+}
+.about .img1 img{
+   width: 100%;
+   height: 100%;
+   border-radius: 180px;
+
+}
+.about .abt{
+    /* border: 2px solid black; */
+    height: 45%;
+    width: 99%;
+    margin-top: 2.5%;
+    text-align: center;
+}
+.abt h1{
+    font-family: 'poppins';
+    color: balck;
+    font-size: 30px;
+    /* text-shadow: 2px 2px 2px rgb(226, 98, 98); */
+    text-shadow: 2px 2px 2px rgb(116, 159, 219);
+
+}
+.abt h3{
+    font-family: 'poppins';
+    font-size: 16px;
+    font-weight: 400;
+    font-style: unset;
+}
+.Smedia{
+    /* border: 2px solid rgb(255, 0, 0); */
+    width: 100%;
+    height: 30%;
+    font-size: 50px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.abot{
+    /* border: 2px solid black; */
+    margin-top: 120px;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.abot .addrs{
+    /* border: 2px solid red; */
+    width: 95%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    /* box-shadow: 4px 0px 3px 4px rgb(226, 98, 98); */
+    box-shadow: 3px 1px 2px 3px rgb(48, 124, 230);
+    border-radius: 15px;
+}
+.abot .addrs .logo{
+    /* border: 2px solid blue; */
+    height: 80%;
+    width: 35%;
+    margin-top:9%;
+    
+}
+.abot .addrs .logo .bi{
+    margin-left:20%;
+    margin-top: 15%;
+    font-size: 80px;
+    font-weight: 600;
+
+}
+.abot .addrs .dtl{
+    /* border: 2px solid green; */
+    width: 65%;
+    height: 95%;
+    text-align: center;
+}
+
+.abot .addrs .dtl h3{
+    /* color: black; */
+    font-family: 'poppins';
+    font-family: 24px;
+    margin-top: 7%;
+}
+.abot .addrs .dtl h4{
+    /* color: black; */
+    font-family: 'poppins';
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 2%;
+}
+.abot .addrs .dtl a{
+    /* color: black; */
+    font-family: 'poppins';
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 2%;
+    text-decoration:none;
+    color: black;
+}
+
+.abot .cont{
+    /* border: 2px solid red; */
+    width: 95%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    /* box-shadow: 4px 0px 3px 4px rgb(226, 98, 98); */
+    box-shadow: 3px 1px 2px 3px rgb(48, 124, 230);
+    border-radius: 15px;
+}
+.abot .cont .logo{
+    /* border: 2px solid blue; */
+    height: 80%;
+    width: 35%;
+    margin-top:21%;
+    
+}
+.abot .cont .logo .bi{
+    margin-left:20%;
+    margin-top: 15%;
+    font-size: 80px;
+    font-weight: 600;
+
+}
+.abot .cont .dtl h3{
+    /* color: black; */
+    font-family: 'poppins';
+    font-family: 24px;
+    margin-top: 7%;
+}
+.abot .cont .dtl{
+    /* border: 2px solid green; */
+    width: 65%;
+    height: 95%;
+    text-align: center;
+}
+.abot .cont .dtl ul li{
+    /* color: black; */
+    font-family: 'poppins';
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 2%;
+    list-style: none;
+}
+
+.footer{
+    margin-top: 60px;
+    /* border: 2px solid red; */
+    border-radius: 0px 0px 25px 25px;
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(48, 124, 230) ;
+}
+.footer .copy{
+    /* border: 2px solid black; */
+    width: 80%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+.footer .copy h2{
+    color: white;
+    font-family: 'poppins';
+    font-size: 15px;
+    font-weight: 400;
+
+}
+.footer .copy h3{
+    color: white;
+    font-size: 40px;
+}
+.footer .copy h4{
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+    font-family: 'poppins';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1200px){
+    header .nav .icn img{
+        height: 100%;
+        width: 100%;
+        float: left;
+        margin-left: 25%;
+    }
+}
+@media only screen and (min-width:600px){
+    header .nav .icn img{
+        height: 100%;
+        width: 170%;
+        margin-left: 25%;
+    }
+    header .nav .menu button{
+        margin: auto;
+        float: right;
+        width: 15vh;
+        height: 5vh;
+        font-size: 18px;
+        margin-top: 2vh;
+        border-radius: 10px;
+        border: 2px solid white;
+        /* background-color: rgb(231, 48, 106); */
+        background-color: rgb(48, 124, 230);
+        font-family:'poppins';
+        color: white;
+    }
+}
+@media only screen  and (min-width:470px){
+    header .nav .icn img{
+        height: 100%;
+        width: 150%;
+        float: left;
+    }
+}
+@media only screen  and (min-width:600px){
+    header .nav .icn img{
+        height: 100%;
+        width: 150%;
+        float: left;
+    }
+    .about .img1{
+        /* border: 5px solid rgb(231, 48, 106); */
+        border: 5px solid rgb(48, 124, 230);
+        width: 50%;
+        margin: auto;
+        height: 50%;
+        border-radius: 50%;
+        
+    }
+    header .nav .menu button{
+        margin: auto;
+        float: right;
+        width: 15vh;
+        height: 5vh;
+        font-size: 18px;
+        margin-top: 2vh;
+        border-radius: 10px;
+        border: 2px solid white;
+        background-color: rgb(54, 48, 231);
+       
+        font-family:'poppins';
+        color: white;
+    }
+}
+@media only screen  and (min-width:600px){
+    header .nav .icn img{
+        height: 110%;
+        width: 110%;
+        float: left;
+    }
+    .about .img1{
+        /* border: 5px solid rgb(231, 48, 106); */
+        border: 5px solid rgb(48, 124, 230);
+        width: 40%;
+        margin: auto;
+        height: 50%;
+        border-radius: 50%;
+        
+    }
+}
+@media only screen  and (min-width:910px){
+    header .nav .icn img{
+        height: 100%;
+        width: 90%;
+        float: left;
+    }
+    .about .img1{
+        /* border: 5px solid rgb(231, 48, 106); */
+        border: 5px solid rgb(48, 124, 230);
+        width: 32%;
+        margin: auto;
+        height: 50%;
+        border-radius: 50%;
+        
+    }
+    .about{
+        /* border: 2px solid red; */
+        width: 95%;
+        height: 60vh;
+        margin-top: 5vh;
+        margin-left: 2.5%;
+        display: flex;
+    }
+    .about .abt{
+        /* border: 2px solid black; */
+        height: 45%;
+        width: 69%;
+        margin-top: 13.5%;
+        text-align: center;
+    }
+}
+
+@media only screen  and (min-width:1200px){
+    header .nav .icn img{
+        height: 100%;
+        width: 80%;
+        float: left;
+    }
+    .about .img1{
+        /* border: 5px solid rgb(231, 48, 106); */
+        border: 5px solid rgb(48, 124, 230);
+        width: 28%;
+        margin: auto;
+        height: 50%;
+        border-radius: 50%;
+        
+    }
+}
+@media only screen  and (min-width:1600px){
+    header .nav .icn img{
+        height: 100%;
+        width: 70%;
+        float: left;
+    }
+    .about .img1{
+        /* border: 5px solid rgb(231, 48, 106); */
+        border: 5px solid rgb(48, 124, 230);
+        width: 23%;
+        margin: auto;
+        height: 60%;
+        border-radius: 50%;
+        
+    }
+}
+
+
