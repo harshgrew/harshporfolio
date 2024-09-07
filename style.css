@@ -218,7 +218,7 @@ header .nav .menu button{
     border-radius: 0px 0px 25px 25px;
     width: 100%;
     height: auto;
-    background-color: red ;
+    background-color:  rgb(48, 124, 230);
 }
 .footer .copy{
     /* border: 2px solid black; */
